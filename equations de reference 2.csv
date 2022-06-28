@@ -1,10 +1,10 @@
-Paramètres;Garçons ;Filles
-CPT   ;;
+ParamÃ¨tres;GarÃ§ons ;Filles
+CPT   ;
 mu;exp(-11,60757 + 2,59269*log(taille)-0,03083*log(age) + mu-spline);exp(-5,8049 +  0,9798 *log(taille)+0,8362*log(age) + mu-spline)
 sigma;exp(  1,2140+ 0,3089  *log(age) + sigma-spline);exp( -0,7248-0,3140*log(age) + sigma-spline)
 CRF;;
 mu;exp(-9,99120 + 2,13199*log(taille) -0,06838*log(age) + mu-spline);exp(-8,3942 + 1,3596 *log(taille)+ 0,7797*log(age) + mu-spline)
 sigma;exp( -1,4243 -0,2066*log(age) + sigma-spline);exp( -0,8351-0,1313*log(age) + sigma-spline)
 VR;;
-mu;exp(-7,5123 + 1,5669 *log(taille) -0.1669·log(age) + mu-spline);exp(-8,533+ 1,249 *log(taille) -0.938 *log(age) + mu-spline)
+mu;exp(-7,5123 + 1,5669 *log(taille) -0.1669Â·log(age) + mu-spline);exp(-8,533+ 1,249 *log(taille) -0.938 *log(age) + mu-spline)
 sigma;exp( -0,16391 + 0,07346 *log(age) + sigma-spline);exp( -4,922 + 1,466 *log(age) + sigma-spline)
